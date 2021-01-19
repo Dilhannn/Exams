@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="29.0" layoutY="25.0" text="Q5)Mustafa Kemal Atatürk'ün, 1923 seçimlerinden önce ülke sorunlarına çözüm bulmak ve yenileşmeyi" />
+      <Label layoutX="49.0" layoutY="51.0" text="gerçekleştirmek amacıyla yayınladığı program aşağıdakilerden hangisidir?" />
+      <CheckBox fx:id="History5a" layoutX="49.0" layoutY="98.0" mnemonicParsing="false" onAction="#History5acheck" text="A)" />
+      <CheckBox fx:id="History5b" layoutX="49.0" layoutY="121.0" mnemonicParsing="false" onAction="#History5bcheck" text="B)" />
+      <CheckBox fx:id="History5c" layoutX="49.0" layoutY="145.0" mnemonicParsing="false" onAction="#History5ccheck" text="C)" />
+      <CheckBox fx:id="History5d" layoutX="49.0" layoutY="169.0" mnemonicParsing="false" onAction="#History5dcheck" text="D)" />
+      <CheckBox fx:id="History5e" layoutX="49.0" layoutY="192.0" mnemonicParsing="false" onAction="#History5echeck" text="E)" />
+      <Button fx:id="history4skip" layoutX="49.0" layoutY="243.0" mnemonicParsing="false" onAction="#history4skipBtn" text="Fhinish the exam" />
+      <Label layoutX="81.0" layoutY="98.0" text="Başkanlık Divanı Bildirisi" />
+      <Label layoutX="84.0" layoutY="121.0" text="Halkçılık Bildirisi" />
+      <Label layoutX="85.0" layoutY="145.0" text="Altın Işık Bildiris" />
+      <Label layoutX="85.0" layoutY="169.0" text="Dokuz Umde(ilke)" />
+      <Label layoutX="85.0" layoutY="192.0" text="Altı ilke" />
+   </children>
+</Pane>

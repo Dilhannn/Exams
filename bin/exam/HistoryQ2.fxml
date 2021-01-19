@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="422.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="80.0" layoutY="84.0" prefHeight="17.0" prefWidth="500.0" text="Q2)III.Selim döneminde gerçekleştirilen ıslahat hareketlerine ne ad verilir?" />
+      <Label layoutX="134.0" layoutY="169.0" text="Islahat Fermanı" />
+      <Label layoutX="137.0" layoutY="195.0" text="Sened-i İttifak" />
+      <Label layoutX="136.0" layoutY="223.0" text="Vaka-i Hayriye" />
+      <Label layoutX="135.0" layoutY="248.0" text="Tanzimat Fermanı" />
+      <Button fx:id="history2skip" layoutX="61.0" layoutY="302.0" mnemonicParsing="false" onAction="#history2skipBtn" text="Skip" />
+      <Label layoutX="136.0" layoutY="145.0" text="Nizam-ı Cedid" />
+      <CheckBox fx:id="history2a" layoutX="102.0" layoutY="145.0" mnemonicParsing="false" onAction="#history2acheck" text="A)" />
+      <CheckBox fx:id="history2b" layoutX="102.0" layoutY="169.0" mnemonicParsing="false" onAction="#history2bcheck" text="B)" />
+      <CheckBox fx:id="history2c" layoutX="102.0" layoutY="195.0" mnemonicParsing="false" onAction="#history2ccheck" text="C)" />
+      <CheckBox fx:id="history2d" layoutX="102.0" layoutY="223.0" mnemonicParsing="false" onAction="#history2dcheck" text="D)" />
+      <CheckBox fx:id="history2e" layoutX="102.0" layoutY="248.0" mnemonicParsing="false" onAction="#history2echeck" text="E)" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="124.0" layoutY="37.0" text="with regard to speed;" />
+      <Label layoutX="135.0" layoutY="64.0" text="I. It is a scalar quantity." />
+      <Label layoutX="135.0" layoutY="87.0" text="II. Unit is m / s." />
+      <Label layoutX="135.0" layoutY="111.0" text="III. It is a derived size." />
+      <Label layoutX="93.0" layoutY="136.0" text="Q4) Yargılarından hangileri doğrudur?" />
+      <CheckBox fx:id="physics3a" layoutX="88.0" layoutY="177.0" mnemonicParsing="false" onAction="#physics3acheck" text="A)" />
+      <CheckBox fx:id="physics3b" layoutX="247.0" layoutY="177.0" mnemonicParsing="false" onAction="#physics3bcheck" text="B)" />
+      <CheckBox fx:id="physics3c" layoutX="415.0" layoutY="177.0" mnemonicParsing="false" onAction="#physics3ccheck" text="C)" />
+      <CheckBox fx:id="physics3d" layoutX="164.0" layoutY="233.0" mnemonicParsing="false" onAction="#physics3dcheck" text="D)" />
+      <CheckBox fx:id="physics3e" layoutX="342.0" layoutY="233.0" mnemonicParsing="false" onAction="#physics3echeck" text="E)" />
+      <Label layoutX="124.0" layoutY="177.0" text="Only I." />
+      <Label layoutX="286.0" layoutY="177.0" text="Only II." />
+      <Label layoutX="454.0" layoutY="177.0" text="I  and II." />
+      <Label layoutX="199.0" layoutY="233.0" text="II and III." />
+      <Label layoutX="379.0" layoutY="233.0" text="I,II and III." />
+      <Button fx:id="physics3skip" layoutX="447.0" layoutY="307.0" mnemonicParsing="false" onAction="#physics3skipBtn" text="Button" />
+   </children>
+</Pane>

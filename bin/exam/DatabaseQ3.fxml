@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="79.0" layoutY="33.0" text="Q3) Which of the following queries is wrong?" />
+      <CheckBox fx:id="database3a" layoutX="102.0" layoutY="67.0" mnemonicParsing="false" onAction="#database3acheck" text="A)" />
+      <CheckBox fx:id="darabe3b" layoutX="102.0" layoutY="95.0" mnemonicParsing="false" onAction="#darabe3bcheck" text="B)" />
+      <CheckBox fx:id="darabe3c" layoutX="102.0" layoutY="124.0" mnemonicParsing="false" onAction="#darabe3ccheck" text="C)" />
+      <CheckBox fx:id="darabe3d" layoutX="102.0" layoutY="150.0" mnemonicParsing="false" onAction="#darabe3dcheck" text="D)" />
+      <CheckBox fx:id="darabe3e" layoutX="102.0" layoutY="177.0" mnemonicParsing="false" onAction="#darabe3echeck" text="E)" />
+      <Label layoutX="135.0" layoutY="67.0" text="Select Name, Surname, Age from Customers." />
+      <Label layoutX="135.0" layoutY="95.0" text="Select NameSoyad as Name, Age from Customers." />
+      <Label layoutX="133.0" layoutY="124.0" text="Select Name + '‘+ Surname as Name, Age as from Customers." />
+      <Label layoutX="133.0" layoutY="150.0" text="Select Name + '‘+ Surname, Age as Name from Customers." />
+      <Label layoutX="134.0" layoutY="177.0" text="Select Name + Surname + Age from Customers." />
+      <Button fx:id="database3skip" layoutX="76.0" layoutY="218.0" mnemonicParsing="false" onAction="#database3skipBtn" text="Button" />
+   </children>
+</Pane>

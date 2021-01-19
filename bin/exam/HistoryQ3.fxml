@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="613.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="12.0" layoutY="43.0" text="Q3)Osmanlı devletinde ilk anayasal yönetimin başlangıcını temsil eden I. Meşrutiyet hangi tarikte ilan edilmiştir?" />
+      <CheckBox fx:id="History3a" layoutX="99.0" layoutY="79.0" mnemonicParsing="false" onAction="#History3acheck" text="A)" />
+      <CheckBox fx:id="History3b" layoutX="99.0" layoutY="108.0" mnemonicParsing="false" onAction="#History3bcheck" text="B)" />
+      <CheckBox fx:id="History3c" layoutX="99.0" layoutY="136.0" mnemonicParsing="false" onAction="#History3ccheck" text="C)" />
+      <CheckBox fx:id="History3d" layoutX="99.0" layoutY="165.0" mnemonicParsing="false" onAction="#History3dcheck" text="D)" />
+      <CheckBox fx:id="History3e" layoutX="99.0" layoutY="192.0" mnemonicParsing="false" onAction="#History3echeck" text="E)" />
+      <Button fx:id="history3skip" layoutX="99.0" layoutY="236.0" mnemonicParsing="false" onAction="#history3skipBtn" text="Skip" />
+      <Label layoutX="137.0" layoutY="79.0" text="8 Eylül 1808" />
+      <Label layoutX="133.0" layoutY="108.0" text="3 Kasım 1839" />
+      <Label layoutX="131.0" layoutY="136.0" text="23 Aralık 1876" />
+      <Label layoutX="132.0" layoutY="165.0" text="23 Temmuz 1908" />
+      <Label layoutX="131.0" layoutY="192.0" text="17 Aralık 1908" />
+   </children>
+</Pane>

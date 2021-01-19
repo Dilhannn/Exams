@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="8.0" layoutY="25.0" prefHeight="24.0" prefWidth="585.0" text="The two vehicles start moving towards each other on a linear road at constant speeds of 15m/s and 20m/s." />
+      <Label layoutX="42.0" layoutY="65.0" text=" Q1)  According to the vehicles they encounter after 3 seconds, how many meters (m) is the." />
+      <Label layoutX="55.0" layoutY="82.0" text=" distance between them initially?" />
+      <CheckBox fx:id="chemistry1a" layoutX="91.0" layoutY="112.0" mnemonicParsing="false" onAction="#chemistry1acheck" text="A)" />
+      <CheckBox fx:id="chemistry1b" layoutX="187.0" layoutY="112.0" mnemonicParsing="false" onAction="#chemistry1bcheck" text="B)" />
+      <CheckBox fx:id="chemistry1c" layoutX="91.0" layoutY="169.0" mnemonicParsing="false" onAction="#chemistry1ccheck" text="C)" />
+      <CheckBox fx:id="chemistry1d" layoutX="186.0" layoutY="161.0" mnemonicParsing="false" onAction="#chemistry1dcheck" text="D)" />
+      <CheckBox fx:id="chemistry1e" layoutX="92.0" layoutY="226.0" mnemonicParsing="false" onAction="#chemistry1echeck" text="E)" />
+      <Button fx:id="chemistry1skip" layoutX="65.0" layoutY="270.0" mnemonicParsing="false" onAction="#chemistry1skipBtn" text="Skip" />
+      <Label layoutX="123.0" layoutY="112.0" text="20" />
+      <Label layoutX="221.0" layoutY="112.0" text="35" />
+      <Label layoutX="123.0" layoutY="170.0" text="70" />
+      <Label layoutX="218.0" layoutY="162.0" text="105" />
+      <Label layoutX="126.0" layoutY="226.0" text="140" />
+   </children>
+</Pane>

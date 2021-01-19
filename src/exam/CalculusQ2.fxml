@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="110.0" layoutY="66.0" text=" 2 + 1,       x&lt;0" />
+      <Label layoutX="116.0" layoutY="58.0" text="-x" />
+      <Label layoutX="68.0" layoutY="74.0" text="f(x) =" />
+      <Label layoutX="110.0" layoutY="91.0" text=" 1 - lnx,      0&lt;x&lt;e" />
+      <Label layoutX="174.0" layoutY="91.0" text="_" />
+      <Label layoutX="45.0" layoutY="117.0" text="Q2)So, what is the difference lim f(x) - lim f(x)?" />
+      <Label layoutX="186.0" layoutY="127.0" text="x-&gt; -1" />
+      <Label layoutX="240.0" layoutY="127.0" text="x-&gt; e" />
+      <Label layoutX="268.0" layoutY="126.0" text="-" />
+      <CheckBox fx:id="calculus2a" layoutX="60.0" layoutY="155.0" mnemonicParsing="false" onAction="#calculus2acheck" text="A)" />
+      <CheckBox fx:id="calculus2b" layoutX="60.0" layoutY="183.0" mnemonicParsing="false" onAction="#calculus2bcheck" text="B)" />
+      <CheckBox fx:id="calculus2c" layoutX="60.0" layoutY="208.0" mnemonicParsing="false" onAction="#calculus2ccheck" text="C)" />
+      <CheckBox fx:id="calculus2d" layoutX="60.0" layoutY="233.0" mnemonicParsing="false" onAction="#calculus2dcheck" text="D)" />
+      <CheckBox fx:id="calculus2e" layoutX="60.0" layoutY="258.0" mnemonicParsing="false" onAction="#calculus2echeck" text="E)" />
+      <Button fx:id="calculus2skip" layoutX="42.0" layoutY="300.0" mnemonicParsing="false" onAction="#calculus2skipBtn" text="skip" />
+      <Label layoutX="96.0" layoutY="155.0" text="1" />
+      <Label layoutX="96.0" layoutY="183.0" text="2" />
+      <Label layoutX="96.0" layoutY="208.0" text="3" />
+      <Label layoutX="96.0" layoutY="233.0" text="4" />
+      <Label layoutX="96.0" layoutY="258.0" text="6" />
+   </children>
+</Pane>

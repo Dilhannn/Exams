@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="110.0" layoutY="55.0" text="Q4)  ‘---- bag is this?’ ‘It is Andrew’s.’" />
+      <CheckBox fx:id="english4a" layoutX="62.0" layoutY="94.0" mnemonicParsing="false" onAction="#english4acheck" text="A)" />
+      <CheckBox fx:id="english4b" layoutX="188.0" layoutY="94.0" mnemonicParsing="false" onAction="#english4bcheck" text="B)" />
+      <CheckBox fx:id="english4c" layoutX="326.0" layoutY="94.0" mnemonicParsing="false" onAction="#english4ccheck" text="C)" />
+      <CheckBox fx:id="english4d" layoutX="126.0" layoutY="143.0" mnemonicParsing="false" onAction="#english4dcheck" text="D)" />
+      <CheckBox fx:id="english4e" layoutX="268.0" layoutY="143.0" mnemonicParsing="false" onAction="#english4echeck" text="E)" />
+      <Label layoutX="220.0" layoutY="94.0" text="Whose" />
+      <Label layoutX="358.0" layoutY="94.0" text="Who's" />
+      <Label layoutX="159.0" layoutY="143.0" text="Whom" />
+      <Label layoutX="300.0" layoutY="143.0" text="Which" />
+      <Label layoutX="96.0" layoutY="94.0" text="Who" />
+      <Button fx:id="english4skip" layoutX="454.0" layoutY="275.0" mnemonicParsing="false" onAction="#english4skipBtn" text="Skip" />
+   </children>
+</Pane>

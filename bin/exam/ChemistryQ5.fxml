@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="54.0" layoutY="53.0" text="Q5) Which of the following statements about mixtures is absolutely correct?" />
+      <CheckBox fx:id="chemistry5a" layoutX="83.0" layoutY="80.0" mnemonicParsing="false" onAction="#chemistry5acheck" text="A)" />
+      <CheckBox fx:id="chemistry5b" layoutX="83.0" layoutY="108.0" mnemonicParsing="false" onAction="#chemistry5bcheck" text="B)" />
+      <CheckBox fx:id="chemistry5c" layoutX="83.0" layoutY="136.0" mnemonicParsing="false" onAction="#chemistry5ccheck" text="C)" />
+      <CheckBox fx:id="chemistry5d" layoutX="83.0" layoutY="163.0" mnemonicParsing="false" onAction="#chemistry5dcheck" text="D)" />
+      <CheckBox fx:id="chemistry5e" layoutX="83.0" layoutY="192.0" mnemonicParsing="false" onAction="#chemistry5echeck" text="E)" />
+      <Label layoutX="118.0" layoutY="80.0" text="Components come together in certain proportions." />
+      <Label layoutX="118.0" layoutY="108.0" text="They are represented by specific formulas." />
+      <Label layoutX="118.0" layoutY="136.0" text="Components lose their properties when coming together." />
+      <Label layoutX="118.0" layoutY="163.0" text="They can be separated by physical methods." />
+      <Label layoutX="116.0" layoutY="192.0" text="Its appearance is the same throughout the mix." />
+      <Button fx:id="chemistry5skip" layoutX="57.0" layoutY="232.0" mnemonicParsing="false" onAction="#chemistry5skipBtn" text="Fhinish the exam" />
+      <Label layoutX="421.0" layoutY="62.0" text=" — " />
+      <Label layoutX="412.0" layoutY="62.0" text=" — " />
+      <Label layoutX="430.0" layoutY="62.0" text=" — " />
+      <Label layoutX="439.0" layoutY="62.0" text=" — " />
+      <Label layoutX="403.0" layoutY="62.0" text=" — " />
+   </children>
+</Pane>

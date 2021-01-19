@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="62.0" layoutY="30.0" text="Q1) Which of the following mixtures is not heterogeneous?" />
+      <CheckBox fx:id="chemistry1a" layoutX="82.0" layoutY="63.0" mnemonicParsing="false" onAction="#chemistry1acheck" text="A)" />
+      <CheckBox fx:id="chemistry1b" layoutX="82.0" layoutY="90.0" mnemonicParsing="false" onAction="#chemistry1bcheck" text="B)" />
+      <CheckBox fx:id="chemistry1c" layoutX="82.0" layoutY="119.0" mnemonicParsing="false" onAction="#chemistry1ccheck" text="C)" />
+      <CheckBox fx:id="chemistry1d" layoutX="82.0" layoutY="148.0" mnemonicParsing="false" onAction="#chemistry1dcheck" text="D)" />
+      <CheckBox fx:id="chemistry1e" layoutX="82.0" layoutY="176.0" mnemonicParsing="false" onAction="#chemistry1echeck" text="E)" />
+      <Label layoutX="115.0" layoutY="63.0" text="Soda" />
+      <Label layoutX="114.0" layoutY="90.0" text="Buttermilk" />
+      <Label layoutX="118.0" layoutY="119.0" text="Soil" />
+      <Label layoutX="118.0" layoutY="148.0" text="Granite" />
+      <Label layoutX="115.0" layoutY="176.0" text="Orange juice" />
+      <Button fx:id="chemistry1skip" layoutX="72.0" layoutY="212.0" mnemonicParsing="false" onAction="#chemistry1skipBtn" text="Skip" />
+   </children>
+</Pane>

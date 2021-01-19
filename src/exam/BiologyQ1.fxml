@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="34.0" layoutY="47.0" text="Q1) Which of the following is true about the myelin sheath, which increases the speed of information" />
+      <Label layoutX="55.0" layoutY="64.0" text=" transmission of nerve cells and allows axons to be thinner?" />
+      <CheckBox fx:id="biology1a" layoutX="68.0" layoutY="110.0" mnemonicParsing="false" onAction="#biology1acheck" text="A)" />
+      <CheckBox fx:id="biology1b" layoutX="68.0" layoutY="139.0" mnemonicParsing="false" onAction="#biology1bcheck" text="B)" />
+      <CheckBox fx:id="biology1c" layoutX="68.0" layoutY="170.0" mnemonicParsing="false" onAction="#biology1ccheck" text="C)" />
+      <CheckBox fx:id="biology1d" layoutX="68.0" layoutY="200.0" mnemonicParsing="false" onAction="#biology1dcheck" text="D)" />
+      <CheckBox fx:id="biology1e" layoutX="68.0" layoutY="228.0" mnemonicParsing="false" onAction="#biology1echeck" text="E)" />
+      <Label layoutX="108.0" layoutY="110.0" text="It is a layer of fat." />
+      <Label layoutX="108.0" layoutY="139.0" text="It is a protein layer." />
+      <Label layoutX="108.0" layoutY="170.0" text="It consists of specialized cells." />
+      <Label layoutX="108.0" layoutY="200.0" text="They are the protrusions made by the axon membranes." />
+      <Label layoutX="108.0" layoutY="228.0" text="none of them" />
+      <Button fx:id="biology1skip" layoutX="436.0" layoutY="304.0" mnemonicParsing="false" onAction="#biology1skipBtn" text="Skip" />
+   </children>
+</Pane>

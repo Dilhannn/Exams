@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="80.0" layoutY="34.0" text="Q4) How can you change an existing table?" />
+      <CheckBox fx:id="database4a" layoutX="80.0" layoutY="67.0" mnemonicParsing="false" onAction="#database4acheck" text="A)" />
+      <CheckBox fx:id="database4b" layoutX="80.0" layoutY="93.0" mnemonicParsing="false" onAction="#database4bcheck" text="B)" />
+      <CheckBox fx:id="database4c" layoutX="80.0" layoutY="120.0" mnemonicParsing="false" onAction="#database4ccheck" text="C)" />
+      <CheckBox fx:id="database4d" layoutX="80.0" layoutY="147.0" mnemonicParsing="false" onAction="#database4dcheck" text="D)" />
+      <CheckBox fx:id="database4e" layoutX="80.0" layoutY="174.0" mnemonicParsing="false" onAction="#database4echeck" text="E)" />
+      <Label layoutX="113.0" layoutY="67.0" text="Drop Table TableName Create TableTableName (...)" />
+      <Label layoutX="112.0" layoutY="93.0" text="Alter Table TableName (…)" />
+      <Label layoutX="113.0" layoutY="120.0" text="Drop Table TableName." />
+      <Label layoutX="117.0" layoutY="147.0" text="Create Table TableName." />
+      <Label layoutX="112.0" layoutY="174.0" text="Create Table TableName Alter Table TableName (...)" />
+      <Button fx:id="database4skip" layoutX="70.0" layoutY="211.0" mnemonicParsing="false" onAction="#database4skipBtn" text="Button" />
+   </children>
+</Pane>

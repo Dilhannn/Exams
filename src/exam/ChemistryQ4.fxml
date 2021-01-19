@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="125.0" layoutY="46.0" text="For solutions;" />
+      <Label layoutX="135.0" layoutY="74.0" text="I. It has a constant melting and boiling point." />
+      <Label layoutX="135.0" layoutY="98.0" text="II. They cannot be represented by a formula." />
+      <Label layoutX="135.0" layoutY="125.0" text="III. Solutions containing ions conduct electric current." />
+      <Label layoutX="92.0" layoutY="154.0" text="Q4) which of its judgments are absolutely correct?" />
+      <CheckBox fx:id="chemistry4a" layoutX="123.0" layoutY="183.0" mnemonicParsing="false" onAction="#chemistry4acheck" text="A)" />
+      <CheckBox fx:id="chemistry4b" layoutX="123.0" layoutY="211.0" mnemonicParsing="false" onAction="#chemistry4bcheck" text="B)" />
+      <CheckBox fx:id="chemistry4c" layoutX="123.0" layoutY="239.0" mnemonicParsing="false" onAction="#chemistry4ccheck" text="C)" />
+      <CheckBox fx:id="chemistry4d" layoutX="123.0" layoutY="268.0" mnemonicParsing="false" onAction="#chemistry4dcheck" text="D)" />
+      <CheckBox fx:id="chemistry4e" layoutX="124.0" layoutY="296.0" mnemonicParsing="false" onAction="#chemistry4echeck" text="E)" />
+      <Button fx:id="chemistry4skip" layoutX="92.0" layoutY="332.0" mnemonicParsing="false" onAction="#chemistry4skipBtn" text="Skip" />
+      <Label layoutX="156.0" layoutY="183.0" text="Only I." />
+      <Label layoutX="154.0" layoutY="211.0" text="Only II." />
+      <Label layoutX="160.0" layoutY="239.0" text="Only III." />
+      <Label layoutX="159.0" layoutY="268.0" text="I. and II." />
+      <Label layoutX="156.0" layoutY="296.0" text="II. and III." />
+   </children>
+</Pane>

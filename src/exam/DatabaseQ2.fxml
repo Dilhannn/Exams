@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="33.0" prefHeight="17.0" prefWidth="687.0" text="Q2)In the company you work for, a backup of the data is requested in the database system every night at 2:00. " />
+      <Label layoutX="14.0" layoutY="50.0" text="For such a system, you need to create a scheduled task in SQL Server.Which service should be used to create " />
+      <Label layoutX="14.0" layoutY="67.0" text="these and similar scheduled tasks on MSSQL Server?" />
+      <CheckBox fx:id="database2a" layoutX="57.0" layoutY="101.0" mnemonicParsing="false" onAction="#database2acheck" text="A)" />
+      <CheckBox fx:id="database2b" layoutX="57.0" layoutY="127.0" mnemonicParsing="false" onAction="#database2bcheck" text="B)" />
+      <CheckBox fx:id="database2c" layoutX="57.0" layoutY="155.0" mnemonicParsing="false" onAction="#database2ccheck" text="C)" />
+      <CheckBox fx:id="database2d" layoutX="57.0" layoutY="183.0" mnemonicParsing="false" onAction="#database2dcheck" text="D)" />
+      <CheckBox fx:id="database2e" layoutX="57.0" layoutY="211.0" mnemonicParsing="false" onAction="#database2echeck" text="E)" />
+      <Label layoutX="90.0" layoutY="101.0" text="SSIS(SQL Server Integration Services)" />
+      <Label layoutX="88.0" layoutY="127.0" text=" FullText Search" />
+      <Label layoutX="90.0" layoutY="155.0" text="Maintenance Plans" />
+      <Label layoutX="90.0" layoutY="183.0" text="Reporting Services" />
+      <Label layoutX="95.0" layoutY="211.0" text="Analysis Services" />
+      <Button fx:id="database2skip" layoutX="47.0" layoutY="258.0" mnemonicParsing="false" onAction="#database2skipBtn" text="Skip" />
+   </children>
+</Pane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="66.0" layoutY="70.0" text="f(x) =" />
+      <Label layoutX="112.0" layoutY="44.0" text="ax - 1,     x&gt;1" />
+      <Label layoutX="112.0" layoutY="70.0" text="2,            x=1" />
+      <Label layoutX="112.0" layoutY="97.0" text="3 - bx,     x&lt;1" />
+      <Label layoutX="44.0" layoutY="128.0" text="Q3) Since lim f(x)=c  and c∈R are. What is the sum of a + b?" />
+      <CheckBox fx:id="calculus3a" layoutX="58.0" layoutY="164.0" mnemonicParsing="false" onAction="#calculus3acheck" text="A) " />
+      <CheckBox fx:id="calculus3b" layoutX="58.0" layoutY="192.0" mnemonicParsing="false" onAction="#calculus3bcheck" text="B) " />
+      <CheckBox fx:id="calculus3c" layoutX="58.0" layoutY="221.0" mnemonicParsing="false" onAction="#calculus3ccheck" text="C) " />
+      <CheckBox fx:id="calculus3d" layoutX="58.0" layoutY="249.0" mnemonicParsing="false" onAction="#calculus3dcheck" text="D) " />
+      <CheckBox fx:id="calculus3e" layoutX="58.0" layoutY="278.0" mnemonicParsing="false" onAction="#calculus3echeck" text="E) " />
+      <Button fx:id="calculus3skip" layoutX="55.0" layoutY="317.0" mnemonicParsing="false" onAction="#calculus3skipBtn" text="Skip" />
+      <Label layoutX="91.0" layoutY="164.0" text="6" />
+      <Label layoutX="91.0" layoutY="192.0" text="4" />
+      <Label layoutX="91.0" layoutY="221.0" text="0" />
+      <Label layoutX="91.0" layoutY="249.0" text="-4" />
+      <Label layoutX="88.0" layoutY="278.0" text="-6" />
+   </children>
+</Pane>

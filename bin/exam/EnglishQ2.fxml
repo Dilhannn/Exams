@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="79.0" layoutY="63.0" text="Q2) Can your brother dance well?’ ‘No, he ----.’" />
+      <CheckBox fx:id="English2a" layoutX="58.0" layoutY="103.0" mnemonicParsing="false" onAction="#English2acheck" text="A)" />
+      <CheckBox fx:id="English2b" layoutX="204.0" layoutY="103.0" mnemonicParsing="false" onAction="#English2bcheck" text="B)" />
+      <CheckBox fx:id="English2c" layoutX="345.0" layoutY="103.0" mnemonicParsing="false" onAction="#English2ccheck" text="C)" />
+      <CheckBox fx:id="English2d" layoutX="131.0" layoutY="150.0" mnemonicParsing="false" onAction="#English2dcheck" text="D)" />
+      <CheckBox fx:id="English2e" layoutX="292.0" layoutY="150.0" mnemonicParsing="false" onAction="#English2echeck" text="E)" />
+      <Label layoutX="97.0" layoutY="103.0" text="isn't" />
+      <Label layoutX="244.0" layoutY="103.0" text="can" />
+      <Label layoutX="388.0" layoutY="103.0" text="can't" />
+      <Label layoutX="175.0" layoutY="150.0" text="-" />
+      <Label layoutX="331.0" layoutY="150.0" text="is" />
+      <Button fx:id="English2skip" layoutX="458.0" layoutY="282.0" mnemonicParsing="false" onAction="#English2skipcheck" text="Skip" />
+   </children>
+</Pane>

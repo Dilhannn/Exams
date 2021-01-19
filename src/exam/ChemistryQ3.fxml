@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="24.0" layoutY="50.0" text="Initially, two cars, standing side by side, start moving in the same direction at constant speeds of 50km \h " />
+      <Label layoutX="24.0" layoutY="73.0" text="and 80km \ h." />
+      <Label layoutX="40.0" layoutY="109.0" text="Q3) Accordingly, after 2 hours, how many kilometers will be between them." />
+      <CheckBox fx:id="physics3a" layoutX="54.0" layoutY="142.0" mnemonicParsing="false" onAction="#physics3acheck" text="A)" />
+      <CheckBox fx:id="physics3b" layoutX="54.0" layoutY="171.0" mnemonicParsing="false" onAction="#physics3bcheck" text="B)" />
+      <CheckBox fx:id="physics3c" layoutX="54.0" layoutY="200.0" mnemonicParsing="false" onAction="#physics3ccheck" text="C)" />
+      <CheckBox fx:id="physics3d" layoutX="54.0" layoutY="229.0" mnemonicParsing="false" onAction="#physics3dcheck" text="D)" />
+      <CheckBox fx:id="physics3e" layoutX="54.0" layoutY="257.0" mnemonicParsing="false" onAction="#physics3echeck" text="E)" />
+      <Label layoutX="91.0" layoutY="142.0" text="30" />
+      <Label layoutX="91.0" layoutY="171.0" text="50" />
+      <Label layoutX="91.0" layoutY="200.0" text="60" />
+      <Label layoutX="91.0" layoutY="229.0" text="90" />
+      <Label layoutX="87.0" layoutY="257.0" text="130" />
+      <Button fx:id="physics3skip" layoutX="461.0" layoutY="295.0" mnemonicParsing="false" onAction="#physics3skipBtn" text="Skip" />
+   </children>
+</Pane>

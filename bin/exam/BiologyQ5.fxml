@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="93.0" layoutY="53.0" text="Q5) Which of the following is true for cartilage tissue? " />
+      <CheckBox fx:id="biology5a" layoutX="122.0" layoutY="83.0" mnemonicParsing="false" onAction="#biology5acheck" text="A)" />
+      <CheckBox fx:id="biology5b" layoutX="122.0" layoutY="110.0" mnemonicParsing="false" onAction="#biology5bcheck" text="B)" />
+      <CheckBox fx:id="biology5c" layoutX="122.0" layoutY="137.0" mnemonicParsing="false" onAction="#biology5ccheck" text="C)" />
+      <CheckBox fx:id="biology5d" layoutX="122.0" layoutY="164.0" mnemonicParsing="false" onAction="#biology5dcheck" text="D)" />
+      <CheckBox fx:id="biology5e" layoutX="122.0" layoutY="192.0" mnemonicParsing="false" onAction="#biology5echeck" text="E)" />
+      <Label layoutX="155.0" layoutY="83.0" text="All embryonic cartilages ossify." />
+      <Label layoutX="155.0" layoutY="110.0" text="Its cells are produced by bone tissue." />
+      <Label layoutX="155.0" layoutY="137.0" text="It contains plenty of capillaries." />
+      <Label layoutX="155.0" layoutY="164.0" text="It facilitates movement in joints." />
+      <Label layoutX="155.0" layoutY="192.0" text="none of them" />
+      <Button fx:id="biology5skip" layoutX="447.0" layoutY="292.0" mnemonicParsing="false" onAction="#biology5skipBtn" text="finish the exam" />
+   </children>
+</Pane>

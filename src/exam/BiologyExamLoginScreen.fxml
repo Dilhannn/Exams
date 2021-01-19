@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="133.0" layoutY="69.0" text="Exam Name: Biology" />
+      <Label layoutX="133.0" layoutY="103.0" text="Year - Period : 2020 - 2021 Güz dönemi" />
+      <Button fx:id="biologybscreen" layoutX="93.0" layoutY="320.0" mnemonicParsing="false" onAction="#biologybscreenBtn" text="Back to exam" />
+      <Button fx:id="biologyfscreen" layoutX="435.0" layoutY="320.0" mnemonicParsing="false" onAction="#biologyfscreenBtn" text="Finished the exam" />
+   </children>
+</Pane>

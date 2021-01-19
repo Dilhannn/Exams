@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="77.0" layoutY="45.0" text="Q4) Which of the following structure-function pairings of human bone is wrong?" />
+      <CheckBox fx:id="biology4a" layoutX="114.0" layoutY="83.0" mnemonicParsing="false" onAction="#biology4acheck" text="A)" />
+      <CheckBox fx:id="biology4b" layoutX="114.0" layoutY="110.0" mnemonicParsing="false" onAction="#biology4bcheck" text="B)" />
+      <CheckBox fx:id="biology4c" layoutX="114.0" layoutY="137.0" mnemonicParsing="false" onAction="#biology4ccheck" text="C)" />
+      <CheckBox fx:id="biology4d" layoutX="114.0" layoutY="163.0" mnemonicParsing="false" onAction="#biology4dcheck" text="D)" />
+      <CheckBox fx:id="biology4e" layoutX="114.0" layoutY="192.0" mnemonicParsing="false" onAction="#biology4echeck" text="E)" />
+      <Label layoutX="147.0" layoutY="83.0" text="Havers and Volkman canals -&gt; Food store" />
+      <Label layoutX="147.0" layoutY="110.0" text="Red buttonhole -&gt; Blood cell production." />
+      <Label layoutX="147.0" layoutY="137.0" text="Periost membrane -&gt; Transverse growth of bone." />
+      <Label layoutX="147.0" layoutY="163.0" text="Pineal plate -&gt; Lengthening of the bone." />
+      <Label layoutX="147.0" layoutY="192.0" text="None of them" />
+      <Button fx:id="biology4skip" layoutX="483.0" layoutY="315.0" mnemonicParsing="false" onAction="#biology4skipBtn" text="Skip" />
+      <Label layoutX="460.0" layoutY="54.0" text="—" />
+      <Label layoutX="466.0" layoutY="54.0" text="—" />
+      <Label layoutX="477.0" layoutY="54.0" text="—" />
+      <Label layoutX="483.0" layoutY="54.0" text="—" />
+   </children>
+</Pane>

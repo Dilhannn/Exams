@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="30.0" layoutY="40.0" text="Mehmet and Akif, moving towards each other at the same time and at constant speeds from the K " />
+      <Label layoutX="30.0" layoutY="57.0" text="and M points in the figure, meet at the L point at the same time." />
+      <Label layoutX="121.0" layoutY="124.0" text="|" />
+      <Label layoutX="279.0" layoutY="124.0" text="|" />
+      <Label layoutX="344.0" layoutY="124.0" text="|" />
+      <Label layoutX="135.0" layoutY="124.0" text="---------------------------" />
+      <Label layoutX="272.0" layoutY="124.0" text="&gt;" />
+      <Label layoutX="124.0" layoutY="124.0" text="&lt;" />
+      <Label layoutX="295.0" layoutY="124.0" text="-------" />
+      <Label layoutX="287.0" layoutY="124.0" text="&lt;" />
+      <Label layoutX="329.0" layoutY="124.0" text="&gt;" />
+      <Label layoutX="118.0" layoutY="141.0" text="K" />
+      <Label layoutX="279.0" layoutY="141.0" text="L" />
+      <Label layoutX="341.0" layoutY="141.0" text="M" />
+      <Label layoutX="185.0" layoutY="141.0" text="200m" />
+      <Label layoutX="297.0" layoutY="141.0" text="100m" />
+      <Label layoutX="30.0" layoutY="192.0" text="Q5) Since Akif's speed is 5m \ s, what is the magnitude of Mehmet's velocity in m \ s?" />
+      <CheckBox fx:id="physics5a" layoutX="82.0" layoutY="232.0" mnemonicParsing="false" onAction="#physics5acheck" text="A)" />
+      <CheckBox fx:id="physics5b" layoutX="218.0" layoutY="232.0" mnemonicParsing="false" onAction="#physics5bcheck" text="B)" />
+      <CheckBox fx:id="physics5c" layoutX="352.0" layoutY="232.0" mnemonicParsing="false" onAction="#physics5ccheck" text="C)" />
+      <CheckBox fx:id="physics5d" layoutX="149.0" layoutY="274.0" mnemonicParsing="false" onAction="#physics5dcheck" text="D)" />
+      <CheckBox fx:id="physics5e" layoutX="293.0" layoutY="274.0" mnemonicParsing="false" onAction="#physics5echeck" text="E)" />
+      <Label layoutX="121.0" layoutY="232.0" text="2" />
+      <Label layoutX="258.0" layoutY="232.0" text="5" />
+      <Label layoutX="391.0" layoutY="232.0" text="10" />
+      <Label layoutX="186.0" layoutY="274.0" text="15" />
+      <Label layoutX="332.0" layoutY="274.0" text="20" />
+      <Button fx:id="physics5skip" layoutX="446.0" layoutY="319.0" mnemonicParsing="false" onAction="#physics5skipBtn" text="Fhinish the exam" />
+   </children>
+</Pane>

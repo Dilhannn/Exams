@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="39.0" layoutY="52.0" text="Q3) Aşağıdaki cümlelerin hangisinde “de” sözcüğünün atılması anlam değişikliğine yol açar?" />
+      <CheckBox fx:id="turkish3a" layoutX="78.0" layoutY="91.0" mnemonicParsing="false" onAction="#turkish3acheck" text="A)" />
+      <CheckBox fx:id="turkish3b" layoutX="78.0" layoutY="117.0" mnemonicParsing="false" onAction="#turkish3bcheck" text="B)" />
+      <CheckBox fx:id="turkish3c" layoutX="78.0" layoutY="144.0" mnemonicParsing="false" onAction="#turkish3ccheck" text="C)" />
+      <CheckBox fx:id="turkish3d" layoutX="78.0" layoutY="174.0" mnemonicParsing="false" onAction="#turkish3dcheck" text="D)" />
+      <CheckBox fx:id="turkish3e" layoutX="78.0" layoutY="200.0" mnemonicParsing="false" onAction="#turkish3echeck" text="E)" />
+      <Label layoutX="111.0" layoutY="91.0" text="Onu hem de bugün aradım." />
+      <Label layoutX="111.0" layoutY="117.0" text="Ne kendi geldi ne de çocuklarını gönderdi." />
+      <Label layoutX="111.0" layoutY="144.0" text="Dün akşam ki toplantıda ben de konuştum." />
+      <Label layoutX="111.0" layoutY="174.0" text="Ben bu öğüdü ona değil de sana vermeliydim." />
+      <Label layoutX="111.0" layoutY="200.0" text="Oraya uğra da arkadaşının düşüncelerini öğren." />
+      <Button fx:id="turkish3skip" layoutX="471.0" layoutY="314.0" mnemonicParsing="false" onAction="#turkish3skipBtn" text="Skip" />
+   </children>
+</Pane>

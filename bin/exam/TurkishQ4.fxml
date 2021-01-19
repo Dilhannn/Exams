@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="45.0" layoutY="83.0" text="Q4) Yukarıda numaralanmış yerlerden hangisine soru işareti (?) konulamaz?" />
+      <Label layoutX="45.0" layoutY="31.0" text="Merak ediyordum; yanındaki kimdi (I) Kardeşi mi (II) yoksa arkadaşı mıydı " />
+      <Label layoutX="45.0" layoutY="48.0" text="(III) Niçin benimle tanıştırmamıştı (IV) Niye beni görmezlikten gelmişti (V)" />
+      <CheckBox fx:id="turkish4a" layoutX="81.0" layoutY="121.0" mnemonicParsing="false" onAction="#turkish4acheck" text="A)" />
+      <CheckBox fx:id="turkish4b" layoutX="81.0" layoutY="149.0" mnemonicParsing="false" onAction="#turkish4bcheck" text="B)" />
+      <CheckBox fx:id="turkish4c" layoutX="81.0" layoutY="177.0" mnemonicParsing="false" onAction="#turkish4c" text="C)" />
+      <CheckBox fx:id="turkish4d" layoutX="81.0" layoutY="207.0" mnemonicParsing="false" onAction="#turkish4d" text="D)" />
+      <CheckBox fx:id="turkish4e" layoutX="81.0" layoutY="236.0" mnemonicParsing="false" onAction="#turkish4echeck" text="E)" />
+      <Label layoutX="121.0" layoutY="121.0" text="V" />
+      <Label layoutX="121.0" layoutY="149.0" text="I" />
+      <Label layoutX="121.0" layoutY="177.0" text="II" />
+      <Label layoutX="121.0" layoutY="207.0" text="III" />
+      <Label layoutX="121.0" layoutY="236.0" text="IV" />
+      <Button fx:id="turkish4skip" layoutX="492.0" layoutY="325.0" mnemonicParsing="false" onAction="#turkish4skipBtn" text="Skip" />
+   </children>
+</Pane>

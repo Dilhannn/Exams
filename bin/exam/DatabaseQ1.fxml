@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="75.0" layoutY="39.0" text="Q1) Which of the following is not a data manipulation statement?" />
+      <CheckBox fx:id="database1a" layoutX="84.0" layoutY="72.0" mnemonicParsing="false" onAction="#database1acheck" text="A)" />
+      <CheckBox fx:id="database1b" layoutX="84.0" layoutY="99.0" mnemonicParsing="false" onAction="#database1b" text="B)" />
+      <CheckBox fx:id="database1c" layoutX="84.0" layoutY="126.0" mnemonicParsing="false" onAction="#database1ccheck" text="C)" />
+      <CheckBox fx:id="database1d" layoutX="84.0" layoutY="153.0" mnemonicParsing="false" onAction="#database1dcheck" text="D)" />
+      <CheckBox fx:id="database1e" layoutX="84.0" layoutY="183.0" mnemonicParsing="false" onAction="#database1echeck" text="E)" />
+      <Label layoutX="117.0" layoutY="72.0" text="Select" />
+      <Label layoutX="117.0" layoutY="99.0" text="Update" />
+      <Label layoutX="118.0" layoutY="126.0" text="Insert" />
+      <Label layoutX="119.0" layoutY="153.0" text="Deny" />
+      <Label layoutX="115.0" layoutY="183.0" text="Delete" />
+      <Button fx:id="database1skip" layoutX="75.0" layoutY="228.0" mnemonicParsing="false" onAction="#database1skipBtn" text="Skip" />
+   </children>
+</Pane>

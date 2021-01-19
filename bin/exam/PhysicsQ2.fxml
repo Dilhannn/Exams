@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="158.0" layoutY="43.0" text="—" />
+      <Label layoutX="164.0" layoutY="43.0" text="—" />
+      <Label layoutX="176.0" layoutY="43.0" text="—" />
+      <Label layoutX="188.0" layoutY="43.0" text="—" />
+      <Label layoutX="200.0" layoutY="43.0" text="—" />
+      <Label layoutX="212.0" layoutY="43.0" text="—" />
+      <Label layoutX="224.0" layoutY="43.0" text="—" />
+      <Label layoutX="236.0" layoutY="43.0" text="—" />
+      <Label layoutX="248.0" layoutY="43.0" text="—" />
+      <Label layoutX="163.0" layoutY="43.0" text="|" />
+      <Label layoutX="163.0" layoutY="52.0" text="|" />
+      <Label layoutX="163.0" layoutY="61.0" text="|" />
+      <Label layoutX="163.0" layoutY="70.0" text="|" />
+      <Label layoutX="163.0" layoutY="79.0" text="|" />
+      <Label layoutX="163.0" layoutY="88.0" text="|" />
+      <Label layoutX="163.0" layoutY="97.0" text="|" />
+      <Label layoutX="163.0" layoutY="106.0" text="|" />
+      <Label layoutX="163.0" layoutY="115.0" text="|" />
+      <Label layoutX="260.0" layoutY="43.0" text="—" />
+      <Label layoutX="272.0" layoutY="43.0" text="—" />
+      <Label layoutX="284.0" layoutY="43.0" text="—" />
+      <Label layoutX="154.0" layoutY="124.0" text="A" />
+      <Label layoutX="293.0" layoutY="35.0" prefHeight="17.0" prefWidth="3.0" text="B" />
+      <Label layoutX="166.0" layoutY="116.0" text="__. . . . . . . . . . . . . . . . . . . . ." />
+      <Label layoutX="295.0" layoutY="44.0" text="." />
+      <Label layoutX="295.0" layoutY="52.0" text="." />
+      <Label layoutX="295.0" layoutY="61.0" text="." />
+      <Label layoutX="295.0" layoutY="71.0" text="." />
+      <Label layoutX="295.0" layoutY="80.0" text="." />
+      <Label layoutX="295.0" layoutY="88.0" text="." />
+      <Label layoutX="295.0" layoutY="98.0" text="." />
+      <Label layoutX="295.0" layoutY="107.0" text="." />
+      <Label layoutX="295.0" layoutY="115.0" text="." />
+      <Label layoutX="169.0" layoutY="44.0" text="&gt;     &gt;     &gt;    &gt;    &gt;    &gt;" />
+      <Label layoutX="160.0" layoutY="63.0" text="^" />
+      <Label layoutX="160.0" layoutY="88.0" text="^" />
+      <Label layoutX="160.0" layoutY="115.0" text="^" />
+      <Label layoutX="174.0" layoutY="116.0" text="I" />
+      <Label layoutX="164.0" layoutY="108.0" text="-" />
+      <Label layoutX="168.0" layoutY="108.0" text="-" />
+      <Label layoutX="172.0" layoutY="108.0" text="-" />
+      <Label layoutX="169.0" layoutY="115.0" text="." />
+      <Label layoutX="216.0" layoutY="133.0" text="40 m" />
+      <Label layoutX="300.0" layoutY="88.0" text="30m" />
+      <Label layoutX="16.0" layoutY="192.0" text="Q2) Accordingly, how many m / s is the speed of the mobile?" />
+      <Label layoutX="14.0" layoutY="165.0" text="It travels from point A to point B on a moving rectangular road in 5 seconds following the orbit in the shape." />
+      <Label layoutX="124.0" layoutY="218.0" text="Velocity" />
+      <Label layoutX="214.0" layoutY="218.0" text="Speed" />
+      <CheckBox fx:id="Physics1a" layoutX="68.0" layoutY="235.0" mnemonicParsing="false" onAction="#Physics1acheck" text="A)" />
+      <CheckBox fx:id="Physics1b" layoutX="68.0" layoutY="261.0" mnemonicParsing="false" onAction="#Physics1bcheck" text="B)" />
+      <CheckBox fx:id="Physics1c" layoutX="68.0" layoutY="288.0" mnemonicParsing="false" onAction="#Physics1ccheck" text="C)" />
+      <CheckBox fx:id="Physics1d" layoutX="68.0" layoutY="315.0" mnemonicParsing="false" onAction="#Physics1dcheck" text="D)" />
+      <CheckBox fx:id="Physics1e" layoutX="68.0" layoutY="342.0" mnemonicParsing="false" onAction="#Physics1echeck" text="E)" />
+      <Label layoutX="138.0" layoutY="235.0" text="14" />
+      <Label layoutX="225.0" layoutY="235.0" text="10" />
+      <Label layoutX="225.0" layoutY="261.0" text="10" />
+      <Label layoutX="138.0" layoutY="261.0" text="10" />
+      <Label layoutX="138.0" layoutY="288.0" text="10" />
+      <Label layoutX="225.0" layoutY="288.0" text="14" />
+      <Label layoutX="138.0" layoutY="315.0" text="14" />
+      <Label layoutX="223.0" layoutY="315.0" text="14" />
+      <Label layoutX="138.0" layoutY="342.0" text="14" />
+      <Label layoutX="224.0" layoutY="342.0" text="20" />
+      <Button fx:id="Physics1skip" layoutX="434.0" layoutY="338.0" mnemonicParsing="false" onAction="#Physics1skipBtn" text="Skip" />
+   </children>
+</Pane>

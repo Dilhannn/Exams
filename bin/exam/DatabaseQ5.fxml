@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="73.0" layoutY="40.0" text="Q5) What privilege a user should be given to list only the records in the database?" />
+      <CheckBox fx:id="database5a" layoutX="87.0" layoutY="70.0" mnemonicParsing="false" onAction="#database5acheck" text="A)" />
+      <CheckBox fx:id="database5b" layoutX="87.0" layoutY="96.0" mnemonicParsing="false" onAction="#database5bcheck" text="B)" />
+      <CheckBox fx:id="database5c" layoutX="87.0" layoutY="123.0" mnemonicParsing="false" onAction="#database5ccheck" text="C)" />
+      <CheckBox fx:id="database5d" layoutX="87.0" layoutY="149.0" mnemonicParsing="false" onAction="#database5dcheck" text="D)" />
+      <CheckBox fx:id="database5e" layoutX="87.0" layoutY="175.0" mnemonicParsing="false" onAction="#database5echeck" text="E)" />
+      <Label layoutX="120.0" layoutY="70.0" text="db_datawriter" />
+      <Label layoutX="118.0" layoutY="96.0" text="db_datareader" />
+      <Label layoutX="120.0" layoutY="123.0" text="db_denydatawriter" />
+      <Label layoutX="120.0" layoutY="149.0" text="db_denydatareader" />
+      <Label layoutX="120.0" layoutY="175.0" text="None" />
+      <Button fx:id="database5skip" layoutX="78.0" layoutY="212.0" mnemonicParsing="false" onAction="#database5skipBtn" text="Fhinish the exam" />
+   </children>
+</Pane>

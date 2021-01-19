@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="59.0" layoutY="42.0" text="f(x)=" />
+      <Label layoutX="97.0" layoutY="25.0" text="x²- 4,     x&gt;0  " />
+      <Label layoutX="97.0" layoutY="42.0" text="1,           x=0" />
+      <Label layoutX="97.0" layoutY="59.0" text="x-4,        x=0" />
+      <Label layoutX="45.0" layoutY="82.0" text="Q1) So, which of the following is wrong?" />
+      <CheckBox fx:id="calculus1a" layoutX="72.0" layoutY="109.0" mnemonicParsing="false" onAction="#calculus1acheck" text="A) " />
+      <CheckBox fx:id="calculus1b" layoutX="243.0" layoutY="109.0" mnemonicParsing="false" onAction="#calculus1bcheck" text="B) " />
+      <CheckBox fx:id="calculus1c" layoutX="72.0" layoutY="149.0" mnemonicParsing="false" onAction="#calculus1ccheck" text="C) " />
+      <CheckBox fx:id="calculus1d" layoutX="240.0" layoutY="149.0" mnemonicParsing="false" onAction="#calculus1dcheck" text="D) " />
+      <CheckBox fx:id="calculus1e" layoutX="71.0" layoutY="192.0" mnemonicParsing="false" onAction="#calculus1echeck" text="E) " />
+      <Label layoutX="83.0" layoutY="126.0" text="x-&gt; ∞" />
+      <Label layoutX="257.0" layoutY="126.0" text="x-&gt; 1" />
+      <Label layoutX="82.0" layoutY="166.0" text="x-&gt; 0-" />
+      <Label layoutX="256.0" layoutY="166.0" text="x-&gt; -1" />
+      <Label layoutX="83.0" layoutY="211.0" text="x-&gt; 2" />
+      <Label layoutX="223.0" layoutY="91.0" text="— " />
+      <Button fx:id="calculus1skip" layoutX="73.0" layoutY="259.0" mnemonicParsing="false" onAction="#calculus1skipBtn" text="Skip" />
+      <Label layoutX="213.0" layoutY="91.0" text="— " />
+      <Label layoutX="232.0" layoutY="91.0" text="— " />
+      <Label layoutX="239.0" layoutY="91.0" text="— " />
+      <Label layoutX="246.0" layoutY="91.0" text="— " />
+      <Label layoutX="108.0" layoutY="109.0" text="lim f(x)= -4" />
+      <Label layoutX="108.0" layoutY="149.0" text="lim f(x) = 1" />
+      <Label layoutX="108.0" layoutY="192.0" text="lim f(x) = 0" />
+      <Label layoutX="278.0" layoutY="109.0" text="lim f(x) = 3" />
+      <Label layoutX="276.0" layoutY="149.0" text="lim f(x) = -5" />
+   </children>
+</Pane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="76.0" layoutY="44.0" text="Q5) ‘Is this your umbrella?’ ‘Yes, it’s ----.’" />
+      <CheckBox fx:id="english5a" layoutX="61.0" layoutY="88.0" mnemonicParsing="false" onAction="#english5acheck" text="A)" />
+      <CheckBox fx:id="english5b" layoutX="200.0" layoutY="88.0" mnemonicParsing="false" onAction="#english5bcheck" text="B)" />
+      <CheckBox fx:id="english5c" layoutX="337.0" layoutY="88.0" mnemonicParsing="false" onAction="#english5ccheck" text="C)" />
+      <CheckBox fx:id="english5d" layoutX="127.0" layoutY="143.0" mnemonicParsing="false" onAction="#english5dcheck" text="D)" />
+      <CheckBox fx:id="english5e" layoutX="279.0" layoutY="143.0" mnemonicParsing="false" onAction="#english5echeck" text="E)" />
+      <Label layoutX="99.0" layoutY="88.0" text="my" />
+      <Label layoutX="238.0" layoutY="88.0" text="mine" />
+      <Label layoutX="377.0" layoutY="88.0" text="yours" />
+      <Label layoutX="169.0" layoutY="143.0" text="your" />
+      <Label layoutX="317.0" layoutY="143.0" text="its" />
+      <Button fx:id="english5skip" layoutX="448.0" layoutY="300.0" mnemonicParsing="false" onAction="#english5skipBtn" text="Finish the exam" />
+   </children>
+</Pane>
