@@ -20,5 +20,7 @@ public class Main extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
     }
-    public void test() {}
+    public void test() {
+    	System.out.println("test");
+    }
 }
